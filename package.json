@@ -1,0 +1,29 @@
+{
+  "name": "onsite-task3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raksh20/Onsite-task3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raksh20/Onsite-task3/issues"
+  },
+  "homepage": "https://github.com/raksh20/Onsite-task3#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "query-string": "^6.13.5",
+    "request": "^2.88.2",
+    "spotify-web-api-node": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
