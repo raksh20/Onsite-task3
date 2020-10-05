@@ -9,9 +9,7 @@ var num=1;
 app.get('/', (req, res) => {
   res.render('search.ejs')
 })
-app.get('/result', (req, res) => {
-  res.render('result.ejs')
-})
+
 var match=false;
 var related2=false;
 app.post('/search', async (req,res)=>{
@@ -65,7 +63,7 @@ app.post('/search', async (req,res)=>{
 				    			match=true;
 				    			count++;
 				    			console.log('shortest path is '+count);
-				    			//res.render('result', {Data: count});
+				    			
 				    			//console.log(body.artists[i].id);
 				    		}else{
 				    			//console.log('not match')
